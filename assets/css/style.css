@@ -408,7 +408,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h3{
-  font-size: 48px;
+  font-size: 40px;
 }
 #hero h2 {
   color: rgba(255, 255, 255, 0.9);
@@ -458,9 +458,27 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 28px;
     line-height: 36px;
   }
-  #hero h2 {
-    font-size: 20px;
+  #hero h2.mt-2 {
+    font-size: 16px !important;
     line-height: 24px;
+  }
+
+  #hero h3 {
+    font-size: 24px !important;
+    line-height: 32px;
+  }
+
+  .btn.btn-primary{
+    font-size: 16px;
+    padding: 10px 20px !important;
+  }
+
+  #header .logo{
+    font-size: 16px !important;
+  }
+  .counts .content h3{
+    font-size: 20px !important;
+    line-height: 32px !important;
   }
 }
 
